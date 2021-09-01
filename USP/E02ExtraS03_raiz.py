@@ -1,3 +1,4 @@
+# escreva um programa que calcula as raízes de uma equação do segundo grau.
 a = int(input('Digite um valor para \'a\': '))
 b = int(input('Digite um valor para \'b\': '))
 c = int(input('Digite um valor para \'c\': '))

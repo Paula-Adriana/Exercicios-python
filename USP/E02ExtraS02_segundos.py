@@ -1,3 +1,4 @@
+# faça um programa em Python que, dada a quantidade de segundos, "quebre" esse valor em dias, horas, minutos e segundos.
 segundos_str = input('Por favor, entre com o número de segundos que deseja converter:')
 total_segundos = int(segundos_str)
 
