@@ -3,14 +3,8 @@
 # informado com caracteres '#' na saída.
 largura = int(input('Digite a largura: '))
 altura = int(input('Digite a altura: '))
-
-while altura != 0:
-    x = largura
-    print(end='\n')
-    while largura != 0:
-        print('#', end='')
-        largura -= 1
-    altura -= 1
-    largura = x
-  
-    
+x = 1 
+while x <= altura: 
+   print('#' * largura, end = '') 
+   print() 
+   x += 1     
