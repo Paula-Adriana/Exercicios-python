@@ -8,6 +8,6 @@ while x <= altura:
    print('#' * largura, end = '') 
    print() 
    x += 1 
-   while x > 1 and x < altura: 
+   while x < altura: 
       print('#' + ' ' * (largura - 2) + '#') 
       x += 1 
